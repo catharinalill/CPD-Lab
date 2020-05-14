@@ -55,3 +55,5 @@ int main (int argc, char *argv[]) {
    MPI_Finalize();
    return 0;
 }
+
+//Processor 0 sends int, does a circle until the last one that sends to 0.
